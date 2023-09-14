@@ -22,7 +22,13 @@ class MainActivity : AppCompatActivity()
             settings.javaScriptEnabled = true
         }
 
-        binding.webview.loadUrl("http://13.235.225.168:8080/")
+        //CLA
+//        binding.webview.loadUrl("http://13.235.225.168:8080/")
+
+        //GON(개발용)
+        binding.webview.loadUrl("http://15.165.137.38:8080")
+
+
     }
 
     override fun onBackPressed() {
